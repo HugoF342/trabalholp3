@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.RelatorioDevolucaoController">
+    <children>
+        <TableView fx:id="tabelaRelatorio">
+            <columns>
+                <TableColumn fx:id="colunaMarca" text="Marca" />
+                <TableColumn fx:id="colunaModelo" text="Modelo" />
+                <TableColumn fx:id="colunaPlaca" text="Placa" />
+                <TableColumn fx:id="colunaNomeCliente" text="Cliente" />
+                <TableColumn fx:id="colunaCpfCliente" text="CPF" />
+                <TableColumn fx:id="colunaMultas" text="Multas" />
+                <TableColumn fx:id="colunaDataPrevista" text="Data Prevista" />
+                <TableColumn fx:id="colunaDataReal" text="Data Real" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

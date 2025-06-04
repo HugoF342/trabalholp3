@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.RelatorioVeiculosController"
+      spacing="10" alignment="CENTER" prefWidth="800" prefHeight="600">
+
+    <Label text="Relatório de Veículos" style="-fx-font-size: 18px;"/>
+
+    <TableView fx:id="tabelaVeiculos" prefHeight="500" prefWidth="760">
+        <columns>
+            <TableColumn fx:id="colId" text="ID"/>
+            <TableColumn fx:id="colMarca" text="Marca"/>
+            <TableColumn fx:id="colModelo" text="Modelo"/>
+            <TableColumn fx:id="colPlaca" text="Placa"/>
+            <TableColumn fx:id="colAno" text="Ano"/>
+            <TableColumn fx:id="colCor" text="Cor"/>
+            <TableColumn fx:id="colCategoria" text="Categoria"/>
+            <TableColumn fx:id="colKm" text="Quilometragem"/>
+            <TableColumn fx:id="colStatus" text="Status"/>
+            <TableColumn fx:id="colDevolucao" text="Data Devolução"/>
+        </columns>
+    </TableView>
+</VBox>

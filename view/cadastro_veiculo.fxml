@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:controller="controller.CadastroVeiculoController"
+          hgap="10" vgap="10" alignment="CENTER">
+
+    <Label text="Marca:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtMarca" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <Label text="Modelo:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtModelo" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <Label text="Placa:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtPlaca" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <Label text="Ano:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtAno" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <Label text="Cor:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtCor" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+    <Label text="Categoria:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtCategoria" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    <Label text="Quilometragem:" GridPane.rowIndex="6" GridPane.columnIndex="0"/>
+    <TextField fx:id="txtQuilometragem" GridPane.rowIndex="6" GridPane.columnIndex="1"/>
+
+    <Button text="Cadastrar" onAction="#cadastrarVeiculo" GridPane.rowIndex="7" GridPane.columnIndex="1"/>
+</GridPane>

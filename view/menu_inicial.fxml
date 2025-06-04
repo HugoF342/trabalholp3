@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.MenuInicialController"
+      spacing="20" alignment="CENTER" prefWidth="400" prefHeight="400">
+
+    <Label text="Menu Inicial" style="-fx-font-size: 18px;"/>
+
+    <Button text="Cadastro de Cliente" onAction="#abrirCadastroCliente" prefWidth="200"/>
+    <Button text="Cadastro de Veículos" onAction="#abrirCadastroVeiculo" prefWidth="200"/>
+    <Button fx:id="btnLocacao"
+            onAction="#abrirTelaLocacao"
+            text="Locação de Veículo"
+            prefWidth="200"/>
+
+    <Button text="Relatório de Locações" onAction="#abrirRelatorio" prefWidth="200"/>
+    <Button text="Relatório de Veículos" onAction="#abrirRelatorioVeiculos" prefWidth="200"/>
+
+
+    <Button text="Devolução e Pagamento" onAction="#abrirDevolucaoPagamento" prefWidth="200"/>
+
+    <Button text="Relatório de Devoluções" onAction="#abrirRelatorioDevolucoes" prefWidth="200"/>
+
+</VBox>

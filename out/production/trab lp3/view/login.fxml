@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.LoginController">
+    <children>
+        <VBox alignment="CENTER" spacing="20.0" layoutX="50" layoutY="50" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0">
+            <Label text="Login" style="-fx-font-size: 18px;"/>
+            <TextField fx:id="txtUsuario" promptText="Usuário"/>
+            <PasswordField fx:id="txtSenha" promptText="Senha"/>
+            <Button text="Entrar" onAction="#entrar"/>
+            <Label fx:id="lblMensagem" textFill="red"/>
+        </VBox>
+    </children>
+</AnchorPane>

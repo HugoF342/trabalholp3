@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.LocacaoController"
+            prefWidth="300" prefHeight="350">
+
+    <ComboBox fx:id="clienteComboBox" layoutX="30" layoutY="30" prefWidth="200"/>
+    <ComboBox fx:id="veiculoComboBox" layoutX="30" layoutY="80" prefWidth="200"/>
+    <DatePicker fx:id="dataRetiradaPicker" layoutX="30" layoutY="130"/>
+    <DatePicker fx:id="dataDevolucaoPicker" layoutX="30" layoutY="180"/>
+    <TextField fx:id="valorTextField" layoutX="30" layoutY="230" promptText="Valor Acordado"/>
+    <Button text="Registrar Locação" layoutX="30" layoutY="280" onAction="#registrarLocacao"/>
+
+</AnchorPane>

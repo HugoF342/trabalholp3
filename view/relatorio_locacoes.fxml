@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controller.RelatorioController" prefWidth="800" prefHeight="400">
+    <TableView fx:id="tabelaRelatorio" layoutX="10" layoutY="10" prefWidth="780" prefHeight="380">
+        <columns>
+            <TableColumn fx:id="colCliente" text="Cliente" prefWidth="150"/>
+            <TableColumn fx:id="colVeiculo" text="Veículo" prefWidth="200"/>
+            <TableColumn fx:id="colDataInicio" text="Data Retirada" prefWidth="120"/>
+            <TableColumn fx:id="colDataFim" text="Data Devolução" prefWidth="120"/>
+            <TableColumn fx:id="colValor" text="Valor (R$)" prefWidth="100"/>
+        </columns>
+    </TableView>
+</AnchorPane>
